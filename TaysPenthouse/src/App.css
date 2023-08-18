@@ -1,42 +1,66 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+/* #root {
+  background-color: black;
+} */
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 10vh;
+  width: 100%;
+  /* background-color: color("primary"); */
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.albumCovers {
+  display:flex;
+  flex-direction: row;
+  width: 100%;
+  height: fit-content;
+  justify-content: space-around;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.albumPair {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center;
+  justify-content: center; */
+  width: 10vw;
+  gap: 1vw;
+  padding-top: 5vw;
+  padding-bottom: 5vw;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.album-cover {
+  width: 100%;
+  height: auto;
 }
 
-.card {
-  padding: 2em;
+.album-cover:hover {
+  transform: scale(1.2);
+    border: var(--purple-LightDark) 25px solids;
+    opacity: 100%;
 }
 
-.read-the-docs {
-  color: #888;
+#album-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
+#startingGIF {
+  width: 35vw;
+  height: auto;
+}
+
+/*     Taylor Swift (2006): Soft Pastel Pink (#FFC0CB)
+    Fearless (2008): Radiant Gold (#FFD700)
+    Speak Now (2010): Deep Royal Blue (#003366)
+    Red (2012): Passionate Crimson (#FF0033)
+    1989 (2014): Electric Blue (#00BFFF)
+    Reputation (2017): Edgy Black with Neon Accents (#000000 with neon accents)
+    Lover (2019): Playful Lavender (#B19CD9)
+    Folklore (2020): Muted Forest Green (#556B2F)
+    Evermore (2020): Deep Indigo (#4B0082)
+    Fearless (Taylor's Version) (2021): Glittering Silver (#C0C0C0)
+    Red (Taylor's Version) (2021): Intense Scarlet (#D0021B) */

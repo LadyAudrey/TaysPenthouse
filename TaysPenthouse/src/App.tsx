@@ -1,19 +1,22 @@
 import { useState } from "react";
 import "./App.css";
 import { Route, Routes } from "react-router-dom";
-import { Container } from "react-bootstrap";
 import Header from "./components/Header";
 import LandingPage from "./pages/LandingPage";
+import SongSorter from "./pages/SongSorter";
+import AlbumInfo from "./pages/AlbumInfo";
 
 function App() {
   return (
     <>
-      <Container>
+      <body className="bg-black">
         <Header />
         <Routes>
           <Route path="/" element={<LandingPage />} />
+          <Route path="/sorter" element={<SongSorter />} />
+          <Route path="/info" element={<AlbumInfo />} />
         </Routes>
-      </Container>
+      </body>
     </>
   );
 }
