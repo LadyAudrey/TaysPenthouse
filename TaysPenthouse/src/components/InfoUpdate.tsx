@@ -1,7 +1,5 @@
-export default function InfoUpdate() {
-  return (
-    <div id="album-info">
-      <img id="startingGIF" src="/Miscellaneous/unicornCat.gif" />
-    </div>
-  );
+import { useState } from "react";
+
+export default function InfoUpdate({ content }: { content: JSX.Element }) {
+  return <div id="album-info">{content}</div>;
 }
