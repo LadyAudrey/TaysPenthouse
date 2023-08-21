@@ -7,7 +7,7 @@ export default function WhichAlbums({ callback }: WhichAlbumsProps) {
     <div>
       <h2>Rank Taylor's songs and albums</h2>
       <h3>Select the albums below that you'd like to sort</h3>
-      <div className="album-covers">
+      <div className="albumCovers">
         <button
           onClick={() => {
             callback(<h2>DebutOG</h2>);
@@ -48,7 +48,17 @@ export default function WhichAlbums({ callback }: WhichAlbumsProps) {
           />
         </button>
       </div>
-      <div className="album-covers">
+      <div className="albumCovers">
+        <button
+          onClick={() => {
+            callback(<h2>Lover</h2>);
+          }}
+        >
+          <img
+            src="/Miscellaneous/crystaldress.jpg"
+            className="sort-choices not-choice"
+          />
+        </button>
         <button
           onClick={() => {
             callback(<h2>Lover</h2>);
@@ -69,6 +79,7 @@ export default function WhichAlbums({ callback }: WhichAlbumsProps) {
         <button
           onClick={() => {
             callback(<h2>Evermore</h2>);
+            lover;
           }}
         >
           <img
@@ -85,6 +96,16 @@ export default function WhichAlbums({ callback }: WhichAlbumsProps) {
           <img
             src="/AlbumCovers/Midnights.png"
             className="sort-choices midnights"
+          />
+        </button>
+        <button
+          onClick={() => {
+            callback(<h2>I'm not an album, just Taylor being cute</h2>);
+          }}
+        >
+          <img
+            src="/Miscellaneous/taythumb.png"
+            className="sort-choices not-choice"
           />
         </button>
       </div>

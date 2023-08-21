@@ -28,7 +28,9 @@ header {
   display: flex;
   flex-direction: column;
   /* align-items: center;
-  justify-content: center; */
+  justify-conten.not-choice:hover {
+  transform: none;
+}t: center; */
   width: 10vw;
   gap: 1vw;
   padding-top: 5vw;
@@ -75,4 +77,14 @@ header {
 .sort-choices {
   height: 10vw;
   width: auto;
+}
+
+.sort-choices:hover {
+  transform: scale(1.2);
+    border: var(--purple-LightDark) 25px solids;
+    opacity: 100%;
+}
+
+.not-choice:hover {
+  transform: none;
 }
