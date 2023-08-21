@@ -3,7 +3,7 @@ import React from "react";
 export default function LandingPage() {
   return (
     <div>
-      <img src="/Miscellaneous/TS_ErasSparkleSuit.png" className="div-fluid" />
+      <img src="/Miscellaneous/1989Era.svg" is="1989era"/>
     </div>
   );
 }

@@ -11,6 +11,11 @@ header {
   /* background-color: color("primary"); */
 }
 
+#1989era {
+  height: 90vh;
+  width: auto;
+}
+
 .albumCovers {
   display:flex;
   flex-direction: row;
