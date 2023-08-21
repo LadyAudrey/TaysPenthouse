@@ -69,3 +69,10 @@ header {
     Evermore (2020): Deep Indigo (#4B0082)
     Fearless (Taylor's Version) (2021): Glittering Silver (#C0C0C0)
     Red (Taylor's Version) (2021): Intense Scarlet (#D0021B) */
+
+    /* song sorter stuff */
+
+.sort-choices {
+  height: 10vw;
+  width: auto;
+}

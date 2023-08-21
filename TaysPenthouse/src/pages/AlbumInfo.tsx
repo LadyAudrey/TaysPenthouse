@@ -5,7 +5,7 @@ import { useState } from "react";
 
 export default function AlbumInfo() {
   const [content, setContent] = useState(
-    <img id="startingGIF" src="/Miscellaneous/unicornCat.gif" />
+    <img className="startingGIF" src="/Miscellaneous/unicornCat.gif" />
   );
   return (
     <div>
