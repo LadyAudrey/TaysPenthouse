@@ -5,7 +5,7 @@ type OldworkProps = {
 export default function Oldwork({ callback }: OldworkProps) {
   return (
     <>
-      <div className="albumCovers">
+      <div className="album-covers">
         <div className="albumPair">
           <button
             onClick={() => {

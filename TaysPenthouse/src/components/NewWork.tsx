@@ -11,7 +11,7 @@ export default function NewWork({ callback }: NewWorkProps) {
         negotiate the terms to her liking and considers them to be legally her
         property.
       </h3>
-      <div className="albumCovers">
+      <div className="album-covers">
         <button
           onClick={() => {
             callback(<h2>Lover</h2>);

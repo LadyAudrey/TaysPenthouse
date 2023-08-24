@@ -8,7 +8,7 @@ export default function AlbumInfo() {
     <img className="startingGIF" src="/Miscellaneous/unicornCat.gif" />
   );
   return (
-    <div>
+    <div className="center-me">
       <Oldwork callback={setContent} />
       <InfoUpdate content={content} />
       <NewWork callback={setContent} />

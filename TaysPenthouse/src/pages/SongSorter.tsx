@@ -6,12 +6,12 @@ export default function SongSorter() {
     <img className="startingGIF" src="/Miscellaneous/unicornCat.gif" />
   );
   return (
-    <>
-    // starts out with the album pics, and text explaining to click on the
-    albums that you want to sort
-    <WhichAlbums callback={setToSort} />
-    // changes to a page component with buttons holding song names that update
-    the logic
-  </>
+    <div>
+      // starts out with the album pics, and text explaining to click on the
+      albums that you want to sort
+      <WhichAlbums callback={setToSort} />
+      // changes to a page component with buttons holding song names that update
+      the logic
+    </div>
   );
 }

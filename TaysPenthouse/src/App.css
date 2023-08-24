@@ -16,7 +16,14 @@ header {
   width: auto;
 }
 
-.albumCovers {
+.center-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.album-covers {
   display:flex;
   flex-direction: row;
   width: 100%;
@@ -72,7 +79,9 @@ header {
     Fearless (Taylor's Version) (2021): Glittering Silver (#C0C0C0)
     Red (Taylor's Version) (2021): Intense Scarlet (#D0021B) */
 
-    /* song sorter stuff */
+/* song sorter stuff */
+
+/* I want the albums to have a hover affect, but not the pics of tay; */
 
 .sort-choices {
   height: 10vw;

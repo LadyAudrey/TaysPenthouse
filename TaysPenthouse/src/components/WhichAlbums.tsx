@@ -4,10 +4,10 @@ type WhichAlbumsProps = {
 
 export default function WhichAlbums({ callback }: WhichAlbumsProps) {
   return (
-    <div>
+    <div className="center-me">
       <h2>Rank Taylor's songs and albums</h2>
       <h3>Select the albums below that you'd like to sort</h3>
-      <div className="albumCovers">
+      <div className="album-covers">
         <button
           onClick={() => {
             callback(<h2>DebutOG</h2>);
@@ -48,7 +48,7 @@ export default function WhichAlbums({ callback }: WhichAlbumsProps) {
           />
         </button>
       </div>
-      <div className="albumCovers">
+      <div className="album-covers">
         <button
           onClick={() => {
             callback(<h2>Lover</h2>);
@@ -79,7 +79,6 @@ export default function WhichAlbums({ callback }: WhichAlbumsProps) {
         <button
           onClick={() => {
             callback(<h2>Evermore</h2>);
-            lover;
           }}
         >
           <img
